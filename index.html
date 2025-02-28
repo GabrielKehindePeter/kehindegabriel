@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kenp - Gabriel Kehinde Peter</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51" style="background-color: rgb(53, 42, 1);">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow py-lg-0 bg-dark px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="fw-bold m-0" >Gabriel</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style="border:2px solid white">
+            <span class="navbar-toggler-icon" style="color: white"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Gabriel</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-light mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3 text-light">Kehinde Gabriel</h1>
+                    <h2 class="typed-text-output d-inline" style="color:white"></h2>
+                    <div class="typed-text d-none">Fullstack Web Developer, WordPress Developer, Database Management, Server and Storage Management, Machine Virtualization, Ruburst IT support,  IT infrastructure</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="files/kehinde Gabriel CV.pdf" download="download" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+<!-- Video Modal Start -->
+<!-- Video Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg"> <!-- Use modal-xl for extra large -->
+        <div class="modal-content rounded-0">
+            <div class="modal-header bg-dark">
+                <h3 class="modal-title text-light" id="exampleModalLabel">Video intro of Gabriel Kehinde</h3>
+                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-dark">
+                <video id="videoPlayer" controls autoplay muted preload="auto" style="width: 100%;">
+                    <source src="./files/gabrielkehinde-peter-introduction.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video Modal End -->
+
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6 bg-dark text-light" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0 text-warning">5<sup>+</sup></h1>
+                            <h5 class="mb-0 text-warning">Years</h5>
+                        </div>
+                        <h3 class="lh-base mb-0 text-warning">of working experience as a fullstack web developer</h3>
+                    </div>
+                    <p class="mb-4">
+                        
+                        I am a seasoned dynamic and results-driven Web Developer with several years of building both simple and complex solution, I am a specialist of the following technologies 
+                    
+                    </p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>PHP OOP / Laravel</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Node js</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>WordPress</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>React framework</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Database Management</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Servers and Storage Management</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>managing Office 365 and IT support</p>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/gabriel-kehinde-work-station.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/gabrile-kehinde-office.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <!-- <h5 class="border-end pe-3 me-3 mb-0 text-light">Happy Clients</h5> -->
+                         <h3 class="text-warning">About Me?</h3>
+                       <p style="text-align: justify;">
+                    
+                    I am Gabriel, an experienced full-stack web developer with a proven track record of delivering innovative and scalable
+                    solutions for businesses. With a strong foundation in both backend and frontend development, I specialize in creating
+                    seamless, high-performing web applications that enhance operational efficiency.
+                    
+                    My expertise extends to database management, web hosting, IT support, and enterprise application management, where I’ve
+                    successfully led and executed complex projects, such as a College of Nursing School Portal that streamlines student
+                    registration, examination scheduling, and record management.
+                    
+                    I am a proactive problem-solver and lifelong learner, committed to staying ahead of industry trends and leveraging the
+                    latest technologies to drive success. With a focus on precision and excellence, I aim to contribute meaningfully to
+                    forward-thinking organizations, delivering impactful solutions that align with their goals.
+
+                       </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill" style="background-color: rgb(201, 201, 201);">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">PHP/Laravel</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Node js</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Wordpress</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">React</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Database</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Servers and Storage</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Web Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">September 2024 – Present</p>
+                                    <h6 class="mb-0">abc capital limited</h6>
+                                </div> 
+                                <div class="col-sm-6">
+                                    <h5>Web Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">August 2024 – October 2024</p>
+                                    <h6 class="mb-0">University of Benin Teaching Hospital (UBTH).</h6>
+                                </div> 
+                                <div class="col-sm-6">
+                                    <h5>Part-Time Web Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">May 2024 – July 2024</p>
+                                    <h6 class="mb-0">University of Benin.</h6>
+                                </div> 
+                                <div class="col-sm-6">
+                                    <h5>Web Developer (Remote)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">January 2024 – May 2024</p>
+                                    <h6 class="mb-0">Big Gorilla Apps</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Web Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">June 2020 to November 2023</p>
+                                    <h6 class="mb-0">Viisionz Cyberspace Transmission Resource – Benin, Edo, NG.</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Bachelor’s degree: Computer Science (BSc.)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2019 - 2023</p>
+                                    <h6 class="mb-0">University of Benin - Edo, NG.</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>National Diploma: Computer Science (ND)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2018 - 2019</p>
+                                    <h6 class="mb-0">Auchi Polytechnic</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Secondary School Certificate (SSCE)</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2009 - 2015</p>
+                                    <h6 class="mb-0">Enwan Mixed Secomdary School</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-dark my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0 text-warning">My Services</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="#contact">Hire Me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5" style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Backend Development</h4>
+                            <h6 class="mb-3 text-primary">Using php, Laravel, Node Js, and Wordpress </h6>
+                            <span>I build secure, scalable, and efficient backend solutions using PHP, Laravel, Node.js, and WordPress. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web Design</h4>
+                        <h6 class="mb-3 text-primary">Using react and bootstrap </h6>
+                            <span>I create responsive and visually appealing websites using React and Bootstrap, delivering seamless user experiences with
+                            modern, clean, and efficient designs tailored to your needs.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Servers and Storage</h4>
+                             <h6 class="mb-3 text-primary">Machine Virtualization Usinf Hyperversus</h6>
+                            <span>I provide reliable server and storage solutions, including machine virtualization using Hyper-V, ensuring efficient
+                            resource management, scalability, and optimized performance for your IT infrastructure.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Content Managemnet Systems</h4>
+                            <h6 class="mb-3 text-primary">Using Wordpress and shopify </h6>
+                            <span>I develop and manage dynamic websites using leading CMS platforms like WordPress, ensuring easy content updates,
+                            scalability, and a seamless user experience tailored to your business needs.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Database Management</h4>
+                            <h6 class="mb-3 text-primary">MySQL, Postgresql, Mongo DB, Database Optimization, Data Migration </h6>
+                            <span>I specialize in database design, optimization, and management using MySQL, PostgreSQL, and MongoDB. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Software Development Methodologies:</h4>
+                            <h6 class="mb-3 text-primary">Git Version Control, Agile Technology, Scrum.</h6>
+                            <span>I utilize Git for efficient code management, collaboration, and tracking using Git for seamless development.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5" style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">IT Support & Systems Administration</h4>
+                            <h6 class="mb-3 text-primary">Office 365 Administration, IT Troubleshooting </h6>
+                            <span>I offer hands-on IT support and efficient system administration, ensuring stable, secure, and optimized operations for businesses of all sizes.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Product Development</h4>
+                            <h6 class="mb-3 text-primary">Creating new products or improving existing ones. </h6>
+                            <span>I specialize in creating innovative products and enhancing existing ones, focusing on user needs and market trends to deliver impactful solutions.</span>
+                        </div>
+                    </div>
+                </div><div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"
+                        style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Graphic Design</h4>
+                            <h6 class="mb-3 text-primary">Using Canva,Coreldraw, and Adobe after effect </h6>
+                            <span>I create visually stunning designs using Canva, CorelDRAW, delivering high-quality graphics tailored to your brand’s identity and message.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">ICT</h4>
+                            <h6 class="mb-3 text-primary">Information and Communications Technology skills. </h6>
+                            <span>I am proficient in providing solutions for networking, system management, and digital communication needs.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5" style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Cyber Security</h4>
+                            <h6 class="mb-3 text-primary">Protecting systems and data from cyber threats.</h6>
+                            <span>I implement measures to protect systems, networks, and data from cyber threats, ensuring robust security and risk
+                            management.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row rounded h-100 p-4 p-lg-5"  style="background-color: lightgrey;">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Windows Administration (PowerShell, Batch script)</h4>
+                            <!-- <h6 class="mb-3 text-primary">Protecting systems and data from cyber threats.</h6> -->
+                            <span>Experienced in managing Windows systems using PowerShell and Batch scripting for automation, configuration, and
+                            efficient system administration.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <!-- <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All Projects</li>
+                        <li class="mx-3" data-filter=".first">UI/UX Design</li>
+                        <li class="mx-3" data-filter=".second">Graphic Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Projects End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0 text-light">Team Members</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/kenp.jpg" alt="">
+                        <div class="team-text bg-dark rounded-end p-4">
+                            <div>
+                                <h5 class="text-warning">Kehinde Gabriel</h5>
+                                <span class="text-warning">Developer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/gabriel-taiye.png" alt="">
+                        <div class="team-text bg-dark rounded-end p-4">
+                            <div>
+                                <h5 class="text-warning">Taiye Paul</h5>
+                                <span class="text-warning">Developer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/ajayi-friday.png" alt="">
+                        <div class="team-text bg-dark rounded-end p-4">
+                            <div>
+                                <h5 class="text-warning">Friday Ajayi</h5>
+                                <span class="text-warning">Developer</span>
+                            </div>
+                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-dark text-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s" style="color: white;">What People Say About Me</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/user1.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/user-img.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/user1.png" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Gabriel is a highly skilled developer with a remarkable ability to turn ideas into functional, user-friendly
+                            applications. His dedication to excellence and continuous improvement is evident in every project he works on.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5 style="color:red">Sonia Azeta</h5>
+                            <span>IT support</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/user-img.png" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Gabriel consistently delivers top-notch work under tight deadlines. His adaptability, problem-solving mindset, and
+                            attention to detail make him a standout professional in the tech industry.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5 style="color:red">Ogaga Esavwede</h5>
+                            <span>Developer</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Gabriel is a dependable and resourceful developer who tackles challenges head-on. His passion for coding and continuous
+                            learning makes him a reliable and inspiring professional to work with.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5 style="color:red">John Bakkar</h5>
+                            <span>Human Resource</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/user1.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/user-img.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0 text-dark" style="color: black;">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2 text-primary">My Address:</p>
+                    <h3 class="fw-bold text-light">Redeem Street, Badore, Ajah, Lagos State, Nigeria.</h3>
+                    <hr class="w-100">
+                    <p class="mb-2 text-primary" >Call me:</p>
+                    <h3 class="text-light">+234 813 0146 023</h3>
+                    <hr class="w-100"/>
+                    <p class="mb-2 text-primary">Mail me:</p>
+                    <h3 class="text-light">kenp.code@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2 text-primary">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4 text-light">PLease fill the form to send me a message</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3964.1541479696275!2d3.597213073504097!3d6.502161823414029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x103bfa6a62e0cfd1%3A0x68e7633f0a376bea!2sBadore%20Road%2C%20Lekki!3m2!1d6.5037588!2d3.6014641!4m5!1s0x103bfa3df9e6a401%3A0xfdeabfbfafd8b07a!2sRoyal%20Palmwill%20Estate%2C%20Remlek%2C%20Badore%2C%20Ajah%2C%20Badore%20Rd%2C%20Aja%2C%20Lagos%20106104%2C%20Lagos!3m2!1d6.5005517!2d3.5982129!5e0!3m2!1sen!2sng!4v1737468895259!5m2!1sen!2sng"
+                style="width: 100%; height: 450px; border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+   
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container text-center">
+                        &copy; <a class="border-bottom text-secondary" href="#">Kehinde Peter Gabriel</a> | All Right Reserved.
+                
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let videoModal = document.getElementById("videoModal");
+        let video = document.getElementById("video");
+
+        videoModal.addEventListener("hidden.bs.modal", function () {
+            video.pause();  // Stop video when modal closes
+            video.currentTime = 0;  // Reset video to the start
+        });
+
+        videoModal.addEventListener("shown.bs.modal", function () {
+            video.play();  // Play video when modal opens
+        });
+    });
+</script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
